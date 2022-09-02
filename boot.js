@@ -11,13 +11,13 @@
 ║
 ║
 ║
-╠🆁🅴🅳╬🅳🆁🅰🅶🅾🅽╣ 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 [`𝗞.𝗣𝗿𝗮𝗯𝗵𝗮𝘀𝗵𝗮´]
+╠🅔︎🅩︎🅘︎🅞︎╬🅑︎🅞︎🅣︎🅦︎🅜︎╣ 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 [`𝗠𝗥.𝗘𝗭𝗜𝗢´]
 ║
 ║
 ║
-╠═𝕆𝔹𝔽𝕌𝕊ℂ𝔸𝕋𝔼𝔻═𝔹𝕐═╣ 😎𝙆.𝙋𝙧𝙖𝙗𝙝𝙖𝙨𝙝𝙖❯❯
+╠═𝕆𝔹𝔽𝕌𝕊ℂ𝔸𝕋𝔼𝔻═𝔹𝕐═╣ 𝗠𝗥.𝗘𝗭𝗜𝗢❯❯
 ║
-╠═══════(github.com/prabhasha2006)═══════╣
+╠═══════(github.com/******)═══════╣
 ║
 ║    ▒ ▒          ▒ ▒ ▒       ▒ ▒ ▒ ▒ ▒  
 ║    ▒    ▒      ▒     ▒          ▒      
@@ -165,7 +165,7 @@ async function startKUMUTHU() {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let xeonfek = await KUMUTHU.sendContact(callerId, global.owner)
-    KUMUTHU.sendMessage(callerId, { text: `⚠️RED-DRAGON Automatic Block System!\n⚠️Don't Call Bot!\n⚠️Please Ask Or Contact The Owner To Unblock You!`}, { quoted : xeonfek })
+    KUMUTHU.sendMessage(callerId, { text: `⚠️𝗘𝗭𝗜𝗢 𝗕𝗢𝗧 𝗪𝗠 Automatic Block System!\n⚠️Don't Call Bot!\n⚠️Please Ask Or Contact The Owner To Unblock You!`}, { quoted : xeonfek })
     await sleep(8000)
     await KUMUTHU.updateBlockStatus(callerId, "block")
     }
@@ -250,21 +250,21 @@ XeonLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeUR
 	            const xdate = moment.tz('Asia/Kolkata').format('YYYY/MM/DD')
 	            const xmembers = metadata.participants.length
                 let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: XeonWlcm, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-                 xeonbody = `🤭🌹 Hi👋 @${xeonName.split("@")[0]}
+                 xeonbody = ` ⇝ Hi ➯ @${xeonName.split("@")[0]} ⇜
 
-🤭🌹 Welcome To  ${metadata.subject}
-🤭🌹 ${xmembers} Members
+ - Welcome To  ${metadata.subject}
+ - ${xmembers} Members
 
-Date  =  ${xdate}
-Time  =  ${xtime} `
+- Date  =  ${xdate}
+- Time  =  ${xtime} `
       //if you copy the code value,
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
    let buttons = [
-    {buttonId: `owner`, buttonText: {displayText: '🙏WELCOME🙏'}, type: 1}
+    {buttonId: `owner`, buttonText: {displayText: '𝛵𝛨𝛬𝛮𝛫𝑆'}, type: 1}
     ]
 let buttonMessage = {
-    image: { url: 'https://i.ibb.co/0h3Sv26/20220805-080104.jpg'},
+    image: { url: 'https://pin.it/4FWU9bZ'},
 caption: xeonbody,
 footer: `${footer}`,
 buttons,
@@ -278,19 +278,19 @@ KUMUTHU.sendMessage(anu.id, buttonMessage)
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-                     xeonbody = `😒🌹 Bye👋 @${xeonName.split("@")[0]}
+                     xeonbody = '↪ Bye ➠ @${xeonName.split("@")[0]} ↩
 
-😒🌹 Left From  ${metadata.subject}
-😒🌹 ${xeonmembers} Members
+- Left From  ${metadata.subject}
+- ${xeonmembers} Members
                     
-Date =  ${xeondate}
-Time =  ${xeontime} `
+- Date =  ${xeondate}
+- Time =  ${xeontime} `
 
    let buttons = [
-    {buttonId: `owner`, buttonText: {displayText: '👎BYE👎'}, type: 1}
+    {buttonId: `owner`, buttonText: {displayText: '𝗚𝗢𝗢𝗗 𝗕𝗬𝗘 𝗕𝗥𝗢 🤣'}, type: 1}
     ]
     let buttonMessage = {
-        image: { url: 'https://i.ibb.co/H4h3mh4/20220805-080200.jpg'},
+        image: { url: 'https://pin.it/4FWU9bZ'},
     caption: xeonbody,
     footer: `${footer}`,
     buttons,
